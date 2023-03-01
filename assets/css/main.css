@@ -26,6 +26,19 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.skillImg {
+	width: 80px;
+	flex-basis: calc(33.33% - 10px);
+	margin: 5px;
+	max-width: 100%;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
